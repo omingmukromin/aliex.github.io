@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^sitemap.xml$ sitemap/sitemap-agc.php?url=$1 [L]
+RewriteRule ^([A-Za-z0-9-]+).blogspot.xml$ sitemap/sitemap-blogspot.php?url=$1 [L]
